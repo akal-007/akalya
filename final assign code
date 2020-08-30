@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- MAIN (Center website) -->
+<div class="main">
+
+<h1></h1>
+<hr>
+
+<h2>RAXXELYN'S PORTFOLIO</h2>
+<p></p>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="/w3images/mountains.jpg"alt="Girl" style="width:100%">
+      <h3>About Me</h3>
+      <p>This is Raxxelyn Jenneyl from India. I am a well rounded individual who lives with my passion, dedication and grace.I am nonpareil who can make everyday a masterpiece. </p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="/w3images/lights.jpg" alt="Career" style="width:100%">
+      <h3>My Career</h3>
+      <p>I am currently persuing a bachelor's degree in the department of information technology in Thiagarajar College of engineering.Since March 2018 I have enthusiastically been studying programming, not only in school, but also via Internet. My area of interest is Information Security. I have  also completed a few courses in the domain of Blockchain and Crytography from Coursera.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="/w3images/nature.jpg" alt="hobbies" style="width:100%">
+      <h3>My Hobbies</h3>
+      <p>I am passionate about writing and have written my owns proses and poems during my free time.Books have always been my soul's breath. Reading always gives me pleasure. I admire the beauty and the poetric sense of nature. I love collecting stamps,coins of different countries, which have been my childhood practise.I have a never ending desire to explore the world with words.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+      <h3>My Achievements</h3>
+      <p> I actively participate in both technical and non technical events.I have released one my prose work in an e-book. I have also won prizes in paper presentations and many extra-curricular activities.I have been working in NSS as an active volunteer.</p>
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
+
+<div class="content">
+  <img src="/w3images/p3.jpg" alt="Bear" style="width:100%">
+  <h3></h3>
+  <p>I have a personal philosophy in life: If somebody else can do something that I'm doing, they should do it. And what I want to do is find things that would represent a unique contribution to the world - the contribution that only I, and my portfolio of talents, can make happen. Those are my priorities in life.</p>
+ 
+</div>
+
+<!-- END MAIN -->
+</div>
+
+</body>
+</html>
+
